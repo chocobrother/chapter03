@@ -17,6 +17,10 @@ public class GoodsApp {
 		Goods camera3 = new Goods();
 				
 		System.out.println( Goods.countOfGoods );
+	
+		
+		Goods goods = new Goods( "nikon", 2000, 50, 0 );
+		goods.showInfo();
 	}
 
 }

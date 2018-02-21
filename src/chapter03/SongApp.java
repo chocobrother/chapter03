@@ -12,6 +12,13 @@ public class SongApp {
 		song.setComposer( "이민수" );
 		
 		song.show();
+		
+		Song song2 = new Song( "그 때 헤어지면", "로이킴", "", "", 2018, 1 );
+		song2.show();
+
+		Song song3 = new Song( "꽃이야", "JBJ" );
+		song3.show();
+		
 	}
 
 }
